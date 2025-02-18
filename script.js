@@ -74,7 +74,6 @@ function flipCard() {
   if (cardChosen.length == 2) {
     setTimeout(checkMatch, 175);
   }
-  console.log(cardArray);
 }
 cardsWon = [];
 function checkMatch() {
