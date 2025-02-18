@@ -72,7 +72,7 @@ function flipCard() {
   cardChosenId.push(card_id);
   cardChosen.push(cardArray[card_id].name);
   if (cardChosen.length == 2) {
-    setTimeout(checkMatch, 175);
+    setTimeout(checkMatch, 300);
   }
 }
 cardsWon = [];
